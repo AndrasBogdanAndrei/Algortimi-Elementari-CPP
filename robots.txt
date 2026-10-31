@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://andrasbogdanandrei.github.io/Algoritmi-Elementari-CodePrepper/sitemap.xml
