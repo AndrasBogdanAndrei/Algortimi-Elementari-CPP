@@ -1,0 +1,10 @@
+*.exe
+*.o
+*.out
+a.out
+program
+date.in
+date.out
+__pycache__/
+.vscode/
+.idea/

@@ -1,0 +1,43 @@
+Algoritmi elementari în C++ — Licență de utilizare
+Copyright (c) 2023–2026 Andras Bogdan Andrei. Toate drepturile rezervate.
+
+1. PROPRIETATE
+Colecția de algoritmi din acest depozit, inclusiv codul sursă, comentariile, explicațiile,
+exemplele, organizarea pe clase și capitole și scripturile (denumite împreună „Colecția”),
+este proprietatea exclusivă a autorului, Andras Bogdan Andrei, și este protejată de
+Legea nr. 8/1996 privind dreptul de autor și drepturile conexe.
+
+2. CE AI VOIE SĂ FACI
+Oricine poate, gratuit, în scop personal, educațional și necomercial:
+  a) să citească algoritmii și să învețe din ei;
+  b) să-i compileze și să-i ruleze pe propriul calculator, pentru studiu;
+  c) profesorii pot prezenta algoritmii la clasă, cu menționarea sursei.
+
+3. CE NU AI VOIE SĂ FACI FĂRĂ ACORDUL SCRIS AL AUTORULUI
+  a) să copieze, să republice sau să redistribuie Colecția ori părți din ea, în orice formă
+     (alte depozite, site-uri, aplicații, culegeri, cursuri, materiale tipărite);
+  b) să modifice Colecția sau să creeze lucrări derivate pe care să le publice;
+  c) să o folosească în scop comercial;
+  d) să extragă automat conținutul (scraping, extragere de text și date);
+  e) să elimine mențiunile privind drepturile de autor.
+
+4. GITHUB
+Publicarea pe GitHub nu acordă alte drepturi în afară de cele de la punctul 2 și de cele pe
+care Termenii de utilizare GitHub le acordă obligatoriu (vizualizare și „fork” în interiorul
+platformei GitHub). Un „fork” nu acordă dreptul de a folosi, modifica sau distribui Colecția
+în afara celor permise de această licență.
+
+5. FĂRĂ GARANȚII
+Colecția este oferită „ca atare”, fără nicio garanție.
+
+6. PERMISIUNI
+Pentru orice altă utilizare, cere acordul scris al autorului: https://github.com/AndrasBogdanAndrei
+
+---------------------------------------------------------------------------------------------
+
+English summary: Copyright (c) 2023–2026 Andras Bogdan Andrei. All rights reserved.
+You may read, compile and run these algorithms for personal, non-commercial learning, and
+teachers may present them in class with attribution. Without the author's prior written
+permission you may not copy, republish, redistribute, modify and publish, scrape, or use
+this collection commercially. Viewing and forking within GitHub grant no further rights.
+Provided "as is", without warranty. The Romanian text above prevails.
