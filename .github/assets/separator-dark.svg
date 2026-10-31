@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="16" viewBox="0 0 1200 16" role="img" aria-label="Separator animat"><title>Separator animat</title><style>@keyframes sp{0.00%{transform:translateX(-240px)}100.00%{transform:translateX(1200px)}}.sp{transform:translateX(480px);animation:sp 6s cubic-bezier(.45,0,.55,1) infinite}text{font-variant-ligatures:none}@media (prefers-reduced-motion:reduce){*{animation:none!important}}</style><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#7a7ff5" stop-opacity="0"/><stop offset=".45" stop-color="#7a7ff5"/>
+<stop offset=".7" stop-color="#f5b83d"/><stop offset="1" stop-color="#f5b83d" stop-opacity="0"/></linearGradient></defs>
+<rect x="0" y="7" width="1200" height="2" rx="1" fill="#30363d"/>
+<g class="sp"><rect x="0" y="6" width="240" height="4" rx="2" fill="url(#sg)"/><circle cx="200" cy="8" r="4" fill="#f5b83d"/></g></svg>

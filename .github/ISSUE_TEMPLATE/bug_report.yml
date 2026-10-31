@@ -1,0 +1,66 @@
+name: Greșeală într-un algoritm
+description: Un program dă alt rezultat, nu se compilează sau explicația din antet e greșită.
+title: "[Greșeală] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Mulțumesc că semnalezi problema! Cu cât dai mai multe detalii, cu atât se repară mai repede.
+        Verifică întâi că nu există deja un issue pentru același fișier.
+  - type: input
+    id: fisier
+    attributes:
+      label: Fișierul
+      description: Calea fișierului din depozit.
+      placeholder: clasa-09/01-cifre/suma-cifrelor.cpp
+    validations:
+      required: true
+  - type: dropdown
+    id: tip
+    attributes:
+      label: Ce fel de problemă este?
+      options:
+        - Rezultat greșit
+        - Eroare sau avertisment la compilare
+        - Programul se blochează sau se oprește cu eroare
+        - Explicație, complexitate sau exemplu greșit în antet
+        - Greșeală de scriere sau diacritice
+    validations:
+      required: true
+  - type: textarea
+    id: intrare
+    attributes:
+      label: Datele de intrare
+      description: Ce ai introdus (sau conținutul lui date.in).
+      render: text
+  - type: textarea
+    id: obtinut
+    attributes:
+      label: Ce a afișat programul
+      description: Rezultatul obținut sau mesajul compilatorului, copiat exact.
+      render: text
+    validations:
+      required: true
+  - type: textarea
+    id: asteptat
+    attributes:
+      label: Ce te așteptai să afișeze
+      description: Rezultatul corect și, dacă poți, de ce.
+    validations:
+      required: true
+  - type: input
+    id: compilator
+    attributes:
+      label: Compilator și sistem de operare
+      description: Rezultatul comenzii g++ --version și sistemul (Windows, Linux, macOS).
+      placeholder: g++ 14.2, Windows 11
+  - type: checkboxes
+    id: verificari
+    attributes:
+      label: Verificări
+      options:
+        - label: Am compilat cu standardul C++17 (de exemplu g++ -std=c++17).
+          required: true
+        - label: Am căutat și nu există deja un issue pentru această problemă.
+          required: true

@@ -1,0 +1,24 @@
+name: Întrebare despre un algoritm
+description: Nu înțelegi o idee, un pas din explicație sau complexitatea unui program.
+title: "[Întrebare] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Citește întâi antetul fișierului și secțiunea „Întrebări frecvente” din README.
+        Întrebările sunt binevenite, dar nu se rezolvă teme sau subiecte de examen în locul cuiva.
+  - type: input
+    id: fisier
+    attributes:
+      label: Fișierul
+      placeholder: clasa-11/01-backtracking/permutari.cpp
+    validations:
+      required: true
+  - type: textarea
+    id: intrebare
+    attributes:
+      label: Întrebarea
+      description: Ce pas nu e clar și ce ai înțeles până acum.
+    validations:
+      required: true

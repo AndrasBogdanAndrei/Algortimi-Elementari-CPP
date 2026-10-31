@@ -1,0 +1,40 @@
+name: Propune un algoritm
+description: Un algoritm sau un capitol care lipsește, ori o idee pentru o explicație mai bună.
+title: "[Propunere] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Descrie ideea cu cuvintele tale. Te rog să nu lipești enunțuri sau rezolvări copiate de pe alte site-uri
+        ori din culegeri: colecția conține doar conținut original.
+  - type: dropdown
+    id: clasa
+    attributes:
+      label: Clasa
+      options:
+        - Clasa a IX-a
+        - Clasa a X-a
+        - Clasa a XI-a
+        - Clasa a XII-a
+        - Nu știu
+    validations:
+      required: true
+  - type: input
+    id: capitol
+    attributes:
+      label: Capitolul
+      description: Capitolul existent în care s-ar potrivi sau un capitol nou.
+      placeholder: Metoda backtracking
+  - type: textarea
+    id: propunere
+    attributes:
+      label: Ce propui
+      description: Algoritmul, ce problemă rezolvă și un exemplu mic de intrare și ieșire.
+    validations:
+      required: true
+  - type: textarea
+    id: motiv
+    attributes:
+      label: De ce ar fi util
+      description: De exemplu, apare des la bacalaureat, la teze sau la olimpiadă.

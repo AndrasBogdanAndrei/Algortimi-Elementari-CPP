@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Aplicația CodePrepper
+    url: https://github.com/AndrasBogdanAndrei/CodePrepper/issues
+    about: Probleme sau idei pentru aplicația CodePrepper (lecții, probleme cu evaluare automată, teste grilă).
+  - name: Pagina proiectului
+    url: https://andrasbogdanandrei.github.io/Algoritmi-Elementari-CodePrepper/
+    about: Toate capitolele pe clase și întrebările frecvente.
